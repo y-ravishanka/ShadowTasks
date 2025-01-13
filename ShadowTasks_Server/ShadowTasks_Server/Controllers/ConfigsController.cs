@@ -12,7 +12,7 @@ namespace ShadowTasks_Server.Controllers
         [Route("Environment")]
         public ResponseResult<string> GetEnvironment()
         {
-            return new ResponseResult<string>(ConfigManager.Environment);
+            return new ResponseResult<string>(true, "success", ConfigManager.Environment);
         }
     }
 }
