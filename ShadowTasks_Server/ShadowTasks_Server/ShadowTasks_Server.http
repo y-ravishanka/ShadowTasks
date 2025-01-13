@@ -1,0 +1,6 @@
+@ShadowTasks_Server_HostAddress = http://localhost:5149
+
+GET {{ShadowTasks_Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
